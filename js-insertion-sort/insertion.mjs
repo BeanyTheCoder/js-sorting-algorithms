@@ -1,8 +1,11 @@
-// start in quokka.js using ctrl+shift+p, then in the search box typing "Quokka.js: Start On Current File"
-// note: you need the pro version of quokka to use imports!(if you dont have it, just copy the code from "random.mjs")
+// start in quokka.js extension(if you don't have it yet, install it from Extensions Tab in VS code):
+// press ctrl+shift+p, then in the search box, type "Quokka.js: Start On Current File" and hit enter
+// note: you need the pro version of quokka to use imports!(if you dont have it, just copy the code from "random.mjs", or use a custom array as i have done here)
 
 // or alternatively, use node.js
+// press ctrl+shift+` to start a new terminal, then navigate into this folder(using cd) and type "node insertion.mjs"
 
+// for those who wanna use Quokka.js, uncomment the below code:
 // import generateRandom from "../random.mjs";
 // let array = generateRandom(10, 100);
 
@@ -12,7 +15,7 @@ function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     let current = arr[i];
     let j = i - 1;
-    
+
     while (j > -1 && arr[j] > current) {
       arr[j + 1] = arr[j];
       j--;
@@ -21,9 +24,8 @@ function insertionSort(arr) {
     arr[j + 1] = current;
   }
 
-  console.log(arr)
+  console.log(arr);
   return arr;
 }
 
-
-insertionSort(array)
+insertionSort(array);
