@@ -43,7 +43,6 @@ If using `Quokka.js` extension, note that the free version does not support modu
 ## Technologies Used 🛠️
 
 - JavaScript
-- _Quokka.js_ & _Node.js_
 
 ## Roadmap 🗺️
 
