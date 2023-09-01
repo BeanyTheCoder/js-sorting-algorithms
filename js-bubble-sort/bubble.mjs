@@ -22,8 +22,9 @@ function bubbleSort(arr) {
     }
   }
 
-  console.log(arr);
   return arr;
 }
 
-bubbleSort(array);
+
+let sortedArr = bubbleSort(array); 
+console.log(sortedArr) // Output: [ 5, 11, 23, 32, 34, 47, 60, 61, 86, 89 ]

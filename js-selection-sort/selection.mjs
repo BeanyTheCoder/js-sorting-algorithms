@@ -27,8 +27,8 @@ function selectionSort(arr) {
     }
   }
 
-  console.log(arr);
   return arr;
 }
 
-selectionSort(array);
+let sortedArr = selectionSort(array); 
+console.log(sortedArr) // Output: [ 1, 2, 5, 16, 49, 52, 57, 59, 83, 92, 100 ]

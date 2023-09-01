@@ -24,8 +24,9 @@ function insertionSort(arr) {
     arr[j + 1] = current;
   }
 
-  console.log(arr);
   return arr;
 }
 
-insertionSort(array);
+let sortedArr = insertionSort(array); 
+console.log(sortedArr) // Output: [ 8, 10, 38, 46, 51, 64, 65, 69, 86, 99 ]
+
