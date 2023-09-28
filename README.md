@@ -20,7 +20,7 @@ A project consisting of various _sorting algorithms_ and their use cases.
 
   **File**: [selection.mjs](./js-selection-sort/selection.mjs)
 
-  **Selection sort** is a popular sorting algorithm where lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quibusdam enim, deserunt eaque perspiciatis tempora voluptatibus reiciendis ea unde eum.
+  **Selection sort** is a popular sorting algorithm that sorts by repeatedly finding the smallest (or largest) element in an unsorted list and moving it to the beginning (or end) of a sorted section. It does this by comparing each element with the current minimum (or maximum) and swapping if a smaller (or larger) one is found. This process repeats until the entire list is sorted.
 
 ## Installation 🛠️
 
